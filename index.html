@@ -1,0 +1,2963 @@
+﻿﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Jewellers | Fine Jewellery Store in P.E.C.H.S., Karachi</title>
+  <meta name="description" content="International Jewellers is a fine jewellery store at Star Centre, Tariq Road, Block 2 P.E.C.H.S., Karachi, offering elegant gold, diamond, and bridal jewellery for every occasion.">
+  <meta name="keywords" content="International Jewellers, Jewellery Store PECHS, Fine Jewellery Karachi, Gold Jewellery Tariq Road, Diamond Jewellery Karachi, Bridal Jewellery, Pakistani Jewellery">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="International Jewellers | Fine Jewellery in Karachi">
+  <meta property="og:description" content="Explore timeless gold, diamond, and bridal jewellery at International Jewellers, Star Centre, Tariq Road, P.E.C.H.S., Karachi.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=1200">
+
+  <meta name="theme-color" content="#0B0B0B">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    /* ==========================================
+       1. THEME VARIABLES & RESET
+       ========================================== */
+    :root {
+      --bg-noir: #0B0B0B;
+      --bg-charcoal: #141414;
+      --bg-graphite: #1C1C1C;
+      --bg-ivory: #FBF8F1;
+      --bg-champagne: #F5EFE2;
+      --bg-pearl: #FAF6EE;
+
+      --gold-900: #6B4E16;
+      --gold-700: #9D7629;
+      --gold-600: #B8892E;
+      --gold-500: #D4AF37;
+      --gold-400: #E2C158;
+      --gold-300: #EFD685;
+      --gold-200: #F5E5B0;
+      --gold-100: #FBF3D8;
+
+      --ink-900: #0E0E0E;
+      --ink-800: #1A1A1A;
+      --ink-700: #2A2A2A;
+      --ink-600: #3D3D3D;
+      --ink-500: #5A5A5A;
+      --ink-400: #7A7A7A;
+      --ink-300: #A5A5A5;
+      --ink-200: #CBCBCB;
+      --ink-100: #E8E8E8;
+
+      --cream: #FAF6EE;
+      --cream-soft: #F5EFE2;
+      --border-gold: rgba(212, 175, 55, 0.28);
+      --border-dark: rgba(255, 255, 255, 0.08);
+      --border-light: #E5DDC9;
+
+      --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.06);
+      --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.08);
+      --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.12);
+      --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.18);
+      --shadow-gold: 0 14px 40px rgba(212, 175, 55, 0.22);
+
+      --radius-xs: 2px;
+      --radius-sm: 4px;
+      --radius-md: 8px;
+      --radius-lg: 16px;
+
+      --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      --transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+      --transition-slow: all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body: 'Jost', system-ui, -apple-system, sans-serif;
+    }
+
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--cream);
+      color: var(--ink-700);
+      line-height: 1.65;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: var(--font-display);
+      color: var(--ink-900);
+      font-weight: 600;
+      line-height: 1.15;
+      letter-spacing: 0.005em;
+    }
+
+    p {
+      color: var(--ink-500);
+      margin-bottom: 1rem;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: var(--transition);
+    }
+
+    ul { list-style: none; }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+
+    ::selection {
+      background: var(--gold-400);
+      color: var(--ink-900);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: var(--bg-graphite); }
+    ::-webkit-scrollbar-thumb { background: var(--gold-700); }
+    ::-webkit-scrollbar-thumb:hover { background: var(--gold-500); }
+
+    /* ==========================================
+       2. LAYOUT UTILITIES
+       ========================================== */
+    .container {
+      width: 90%;
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+    .section {
+      padding: 6.5rem 0;
+      position: relative;
+    }
+
+    .section-sm { padding: 4.5rem 0; }
+
+    .text-center { text-align: center; }
+
+    /* Section Headers */
+    .section-head {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 4rem auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.7rem;
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--gold-700);
+      margin-bottom: 1.1rem;
+    }
+
+    .eyebrow::before,
+    .eyebrow::after {
+      content: '';
+      width: 28px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold-500), transparent);
+    }
+
+    .eyebrow.gold { color: var(--gold-400); }
+
+    .section-head h2 {
+      font-size: 2.85rem;
+      margin-bottom: 1rem;
+      letter-spacing: 0.005em;
+    }
+
+    .section-head h2 em {
+      font-style: italic;
+      color: var(--gold-700);
+      font-weight: 500;
+    }
+
+    .section-head p {
+      font-size: 1.05rem;
+      color: var(--ink-400);
+      line-height: 1.75;
+      letter-spacing: 0.01em;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin: 1.25rem auto 0;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: '';
+      width: 60px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold-500));
+    }
+
+    .divider::after {
+      background: linear-gradient(90deg, var(--gold-500), transparent);
+    }
+
+    .divider i {
+      color: var(--gold-600);
+      font-size: 0.65rem;
+    }
+
+    @media (max-width: 768px) {
+      .section { padding: 4.5rem 0; }
+      .section-head { margin-bottom: 2.75rem; }
+      .section-head h2 { font-size: 2.15rem; }
+      .eyebrow { font-size: 0.68rem; letter-spacing: 3px; }
+    }
+
+    /* ==========================================
+       3. BUTTONS
+       ========================================== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.65rem;
+      padding: 1rem 2.15rem;
+      font-family: var(--font-body);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      border-radius: var(--radius-xs);
+      cursor: pointer;
+      transition: var(--transition);
+      border: 1px solid transparent;
+      white-space: nowrap;
+    }
+
+    .btn i { font-size: 0.95rem; letter-spacing: 0; }
+
+    .btn-gold {
+      background: linear-gradient(135deg, var(--gold-500), var(--gold-700));
+      color: #FFFFFF;
+      box-shadow: 0 4px 18px rgba(212, 175, 55, 0.28);
+    }
+
+    .btn-gold:hover {
+      background: linear-gradient(135deg, var(--gold-600), var(--gold-900));
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(212, 175, 55, 0.4);
+    }
+
+    .btn-outline-gold {
+      background: transparent;
+      color: var(--gold-500);
+      border-color: var(--gold-500);
+    }
+
+    .btn-outline-gold:hover {
+      background: var(--gold-500);
+      color: var(--ink-900);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .btn-dark {
+      background: var(--ink-900);
+      color: var(--gold-300);
+      border: 1px solid var(--ink-700);
+    }
+
+    .btn-dark:hover {
+      background: var(--ink-800);
+      border-color: var(--gold-500);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline-dark {
+      background: transparent;
+      color: var(--ink-900);
+      border: 1px solid var(--ink-900);
+    }
+
+    .btn-outline-dark:hover {
+      background: var(--ink-900);
+      color: var(--gold-300);
+      transform: translateY(-2px);
+    }
+
+    .btn-whatsapp {
+      background: #25D366;
+      color: #FFFFFF;
+      box-shadow: 0 6px 22px rgba(37, 211, 102, 0.28);
+    }
+
+    .btn-whatsapp:hover {
+      background: #1EB855;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px rgba(37, 211, 102, 0.42);
+    }
+
+    .btn-full { width: 100%; }
+    .btn-lg { padding: 1.15rem 2.5rem; font-size: 0.85rem; }
+
+    /* ==========================================
+       4. TOP INFO BAR
+       ========================================== */
+    .top-bar {
+      background: var(--bg-noir);
+      color: var(--ink-300);
+      padding: 0.75rem 0;
+      font-size: 0.78rem;
+      letter-spacing: 1.5px;
+      border-bottom: 1px solid var(--border-dark);
+      position: relative;
+      z-index: 1001;
+    }
+
+    .top-bar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .top-bar-item {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: var(--ink-300);
+      transition: var(--transition);
+    }
+
+    .top-bar-item i {
+      color: var(--gold-500);
+      font-size: 0.8rem;
+    }
+
+    .top-bar-item:hover { color: var(--gold-400); }
+
+    @media (max-width: 768px) {
+      .top-bar-inner { justify-content: center; }
+      .top-bar-item { font-size: 0.72rem; }
+    }
+
+    /* ==========================================
+       5. NAVIGATION
+       ========================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      background: rgba(11, 11, 11, 0.94);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-dark);
+      transition: var(--transition);
+    }
+
+    .site-header.scrolled {
+      background: rgba(11, 11, 11, 0.98);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+
+    .nav-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 76px;
+      gap: 1.25rem;
+      transition: var(--transition);
+    }
+
+    .site-header.scrolled .nav-wrap { height: 70px; }
+
+    .site-header .brand { flex-shrink: 0; }
+
+    .site-header .brand-name { white-space: nowrap; }
+
+    .primary-nav { margin-left: auto; }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      line-height: 1;
+    }
+
+    .brand-mark {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-500), var(--gold-900));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-900);
+      font-size: 1.15rem;
+      box-shadow: 0 8px 22px rgba(212, 175, 55, 0.28);
+      position: relative;
+      overflow: hidden;
+      transition: var(--transition);
+    }
+
+    .brand-mark::before {
+      content: '';
+      position: absolute;
+      inset: 3px;
+      border-radius: 50%;
+      border: 1px solid rgba(11, 11, 11, 0.35);
+    }
+
+    .brand:hover .brand-mark {
+      transform: rotate(-8deg) scale(1.05);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-name {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--gold-300);
+      letter-spacing: 0.5px;
+      line-height: 1.2;
+    }
+
+    .brand-name em {
+      font-style: italic;
+      color: var(--gold-500);
+      font-weight: 500;
+    }
+
+    .brand-tag {
+      font-size: 0.6rem;
+      letter-spacing: 4.5px;
+      color: var(--ink-300);
+      margin-top: 6px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    .primary-nav ul {
+      display: flex;
+      align-items: center;
+      gap: 0.15rem;
+    }
+
+    .primary-nav a {
+      display: block;
+      padding: 0.6rem 0.65rem;
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      white-space: nowrap;
+      text-transform: uppercase;
+      color: var(--ink-200);
+      position: relative;
+      transition: var(--transition);
+    }
+
+    .primary-nav a::after {
+      content: '';
+      position: absolute;
+      bottom: 0.35rem;
+      left: 0.65rem;
+      right: 0.65rem;
+      height: 1px;
+      background: var(--gold-500);
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    .primary-nav a:hover,
+    .primary-nav a.active {
+      color: var(--gold-400);
+    }
+
+    .primary-nav a:hover::after,
+    .primary-nav a.active::after {
+      transform: scaleX(1);
+    }
+
+    .nav-cta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .nav-phone {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      color: var(--ink-100);
+    }
+
+    .nav-phone i {
+      color: var(--gold-500);
+      font-size: 0.85rem;
+    }
+
+    .nav-phone:hover { color: var(--gold-400); }
+
+    /* Hamburger */
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 21px;
+      background: transparent;
+      cursor: pointer;
+      z-index: 1001;
+      padding: 0;
+    }
+
+    .menu-toggle span {
+      width: 100%;
+      height: 2px;
+      background: var(--gold-400);
+      border-radius: 2px;
+      transition: var(--transition);
+      transform-origin: center;
+    }
+
+    .menu-toggle.open span:nth-child(1) {
+      transform: translateY(9.5px) rotate(45deg);
+    }
+    .menu-toggle.open span:nth-child(2) {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+    .menu-toggle.open span:nth-child(3) {
+      transform: translateY(-9.5px) rotate(-45deg);
+    }
+
+    @media (max-width: 1200px) {
+      .nav-cta { display: none; }
+    }
+
+    @media (max-width: 1024px) {
+      .primary-nav {
+        position: fixed;
+        top: 0;
+        right: -340px;
+        width: min(340px, 100vw);
+        height: 100vh;
+        background: var(--bg-noir);
+        padding: 6rem 2.5rem 2.5rem;
+        box-shadow: -20px 0 60px rgba(0, 0, 0, 0.6);
+        transition: right 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+        z-index: 1000;
+        overflow-y: auto;
+        border-left: 1px solid var(--border-gold);
+      }
+
+      .primary-nav.open { right: 0; }
+
+      .primary-nav ul {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.15rem;
+      }
+
+      .primary-nav a {
+        padding: 0.85rem 1.25rem;
+        font-size: 0.8rem;
+        border-bottom: 1px solid var(--border-dark);
+      }
+
+      .primary-nav a::after { display: none; }
+
+      .menu-toggle { display: flex; }
+      .nav-cta .btn { display: none; }
+      .nav-phone { display: none; }
+    }
+
+    @media (max-width: 600px) {
+      .brand-name { font-size: clamp(1.05rem, 4.5vw, 1.4rem); }
+      .brand-tag { font-size: 0.55rem; letter-spacing: 3.5px; }
+      .brand-mark { width: 44px; height: 44px; }
+      .nav-wrap, .site-header.scrolled .nav-wrap { height: 68px; gap: 0.75rem; }
+      .menu-toggle { flex-shrink: 0; }
+    }
+
+    /* ==========================================
+       6. HERO SECTION
+       ========================================== */
+    .hero {
+      position: relative;
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      background: var(--bg-noir);
+      color: var(--ink-100);
+      overflow: hidden;
+      padding: 5rem 0 4rem;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+
+    .hero-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.32;
+      filter: brightness(0.55) contrast(1.05);
+    }
+
+    .hero-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: 
+        radial-gradient(ellipse at 20% 40%, rgba(212, 175, 55, 0.14) 0%, transparent 55%),
+        radial-gradient(ellipse at 80% 70%, rgba(184, 137, 46, 0.1) 0%, transparent 55%),
+        linear-gradient(180deg, rgba(11, 11, 11, 0.75) 0%, rgba(11, 11, 11, 0.92) 100%);
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 5rem;
+      align-items: center;
+      width: 100%;
+    }
+
+    .hero-content { max-width: 620px; }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+      padding: 0.5rem 1.3rem;
+      background: rgba(212, 175, 55, 0.08);
+      border: 1px solid var(--border-gold);
+      border-radius: 999px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold-400);
+      margin-bottom: 2rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-badge i {
+      color: var(--gold-500);
+      font-size: 0.75rem;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: 4.5rem;
+      font-weight: 500;
+      color: #FFFFFF;
+      line-height: 1.02;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-title em {
+      font-style: italic;
+      color: var(--gold-400);
+      font-weight: 400;
+      position: relative;
+    }
+
+    .hero-title em::after {
+      content: '';
+      position: absolute;
+      bottom: 0.15em;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold-500), transparent);
+    }
+
+    .hero-sub {
+      font-size: 1.1rem;
+      color: var(--ink-200);
+      line-height: 1.8;
+      margin-bottom: 2.75rem;
+      max-width: 540px;
+      font-weight: 300;
+      letter-spacing: 0.01em;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .hero-features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2.5rem;
+      padding-top: 2.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .hero-feature {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .hero-feature i {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(212, 175, 55, 0.1);
+      border: 1px solid var(--border-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold-400);
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+
+    .hero-feature-text strong {
+      display: block;
+      font-family: var(--font-body);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--gold-300);
+      margin-bottom: 0.2rem;
+    }
+
+    .hero-feature-text span {
+      font-size: 0.78rem;
+      color: var(--ink-300);
+      letter-spacing: 0.5px;
+    }
+
+    .hero-visual {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-frame {
+      position: relative;
+      width: 100%;
+      max-width: 420px;
+      aspect-ratio: 4/5;
+      border-radius: var(--radius-xs);
+      overflow: hidden;
+      box-shadow: 
+        0 40px 100px rgba(0, 0, 0, 0.6),
+        0 0 0 1px var(--border-gold),
+        0 0 0 12px rgba(11, 11, 11, 0.9),
+        0 0 0 13px var(--border-gold);
+    }
+
+    .hero-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-frame::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 55%, rgba(11, 11, 11, 0.65) 100%);
+    }
+
+    .hero-float {
+      position: absolute;
+      background: var(--bg-noir);
+      border: 1px solid var(--border-gold);
+      padding: 1.1rem 1.35rem;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      z-index: 5;
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .hero-float.card-1 {
+      top: 8%;
+      left: -8%;
+      animation: floaty 6s ease-in-out infinite;
+    }
+
+    .hero-float.card-2 {
+      bottom: 10%;
+      right: -8%;
+      animation: floaty 7s ease-in-out infinite 1s;
+    }
+
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    .float-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-500), var(--gold-900));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-900);
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+
+    .float-text strong {
+      display: block;
+      font-family: var(--font-body);
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--gold-300);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 0.15rem;
+    }
+
+    .float-text span {
+      font-size: 0.72rem;
+      color: var(--ink-300);
+      letter-spacing: 0.5px;
+    }
+
+    @media (max-width: 1100px) {
+      .hero-title { font-size: 3.5rem; }
+      .hero-grid { gap: 3rem; }
+    }
+
+    @media (max-width: 900px) {
+      .hero { padding: 4rem 0 3rem; min-height: auto; }
+      .hero-grid { grid-template-columns: 1fr; gap: 4rem; }
+      .hero-title { font-size: 2.85rem; }
+      .hero-visual { display: none; }
+      .hero-actions .btn { flex: 1; min-width: 200px; }
+    }
+
+    @media (max-width: 600px) {
+      .hero-title { font-size: 2.25rem; }
+      .hero-sub { font-size: 1rem; }
+      .hero-features { gap: 1.5rem; padding-top: 2rem; }
+      .hero-actions .btn { width: 100%; }
+    }
+
+    /* ==========================================
+       7. MARQUEE STRIP
+       ========================================== */
+    .marquee {
+      background: var(--bg-noir);
+      border-top: 1px solid var(--border-gold);
+      border-bottom: 1px solid var(--border-gold);
+      padding: 1.5rem 0;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .marquee::before,
+    .marquee::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 120px;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .marquee::before {
+      left: 0;
+      background: linear-gradient(90deg, var(--bg-noir), transparent);
+    }
+
+    .marquee::after {
+      right: 0;
+      background: linear-gradient(-90deg, var(--bg-noir), transparent);
+    }
+
+    .marquee-track {
+      display: flex;
+      gap: 3rem;
+      animation: scroll 45s linear infinite;
+      white-space: nowrap;
+      width: max-content;
+    }
+
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .marquee-item {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--gold-300);
+      letter-spacing: 0.5px;
+    }
+
+    .marquee-item i {
+      color: var(--gold-500);
+      font-size: 0.75rem;
+      font-style: normal;
+    }
+
+    .marquee-dot {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--gold-500);
+      opacity: 0.6;
+      align-self: center;
+    }
+
+    /* ==========================================
+       8. ABOUT SECTION
+       ========================================== */
+    .about { background: var(--cream); }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.05fr;
+      gap: 5rem;
+      align-items: center;
+    }
+
+    .about-visual {
+      position: relative;
+    }
+
+    .about-img-main {
+      position: relative;
+      border-radius: var(--radius-xs);
+      overflow: hidden;
+      padding: 12px;
+      background: var(--bg-champagne);
+      border: 1px solid var(--border-light);
+      box-shadow: var(--shadow-md);
+    }
+
+    .about-img-main img {
+      width: 100%;
+      height: 560px;
+      object-fit: cover;
+      border-radius: var(--radius-xs);
+    }
+
+    .about-img-accent {
+      position: absolute;
+      bottom: -35px;
+      right: -35px;
+      width: 48%;
+      height: 44%;
+      border-radius: var(--radius-xs);
+      overflow: hidden;
+      padding: 8px;
+      background: var(--bg-champagne);
+      border: 1px solid var(--border-light);
+      box-shadow: var(--shadow-lg);
+      z-index: 3;
+    }
+
+    .about-img-accent img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: var(--radius-xs);
+    }
+
+    .about-badge {
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      background: linear-gradient(135deg, var(--gold-500), var(--gold-900));
+      color: var(--ink-900);
+      padding: 1.15rem 1.4rem;
+      border-radius: var(--radius-sm);
+      box-shadow: var(--shadow-gold);
+      z-index: 4;
+      text-align: center;
+      border: 1px solid rgba(11, 11, 11, 0.1);
+    }
+
+    .about-badge .num {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1;
+      display: block;
+      color: var(--ink-900);
+    }
+
+    .about-badge .lbl {
+      font-family: var(--font-body);
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: rgba(11, 11, 11, 0.75);
+      margin-top: 0.25rem;
+      display: block;
+    }
+
+    .about-content .eyebrow {
+      justify-content: flex-start;
+      margin-bottom: 1.2rem;
+    }
+
+    .about-content .eyebrow::before { display: none; }
+
+    .about-content h2 {
+      font-size: 2.85rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
+    }
+
+    .about-content h2 em {
+      font-style: italic;
+      color: var(--gold-700);
+      font-weight: 500;
+    }
+
+    .about-content p {
+      font-size: 1.02rem;
+      line-height: 1.85;
+      color: var(--ink-500);
+      margin-bottom: 1.25rem;
+      letter-spacing: 0.005em;
+    }
+
+    .about-signature {
+      margin-top: 2rem;
+      padding-top: 1.75rem;
+      border-top: 1px solid var(--border-light);
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .about-sig-mark {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-500), var(--gold-900));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--ink-900);
+      font-style: italic;
+      border: 2px solid var(--bg-champagne);
+      box-shadow: 0 6px 18px rgba(212, 175, 55, 0.28);
+    }
+
+    .about-sig-info strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--ink-900);
+      margin-bottom: 0.2rem;
+    }
+
+    .about-sig-info span {
+      font-size: 0.78rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold-700);
+      font-weight: 500;
+    }
+
+    @media (max-width: 992px) {
+      .about-grid { grid-template-columns: 1fr; gap: 4rem; }
+      .about-content h2 { font-size: 2.15rem; }
+      .about-img-main img { height: 460px; }
+      .about-img-accent { width: 42%; height: 42%; right: -18px; bottom: -18px; }
+      .about-badge { top: -15px; left: -15px; padding: 0.9rem 1.1rem; }
+      .about-badge .num { font-size: 1.65rem; }
+    }
+
+    /* ==========================================
+       9. COLLECTIONS SECTION
+       ========================================== */
+    .collections {
+      background: var(--bg-noir);
+      color: var(--ink-100);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .collections::before {
+      content: '';
+      position: absolute;
+      top: -200px;
+      right: -200px;
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .collections .section-head h2 { color: #FFFFFF; }
+    .collections .section-head p { color: var(--ink-300); }
+    .collections .eyebrow { color: var(--gold-400); }
+
+    .collections-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.75rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .collection-card {
+      position: relative;
+      height: 440px;
+      border-radius: var(--radius-xs);
+      overflow: hidden;
+      border: 1px solid var(--border-gold);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .collection-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--gold-500);
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.5), 0 0 0 1px var(--gold-500);
+    }
+
+    .collection-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.9s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    .collection-card:hover img {
+      transform: scale(1.08);
+    }
+
+    .collection-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(11, 11, 11, 0.95) 10%, rgba(11, 11, 11, 0.4) 55%, rgba(11, 11, 11, 0.1) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 2.25rem 1.85rem;
+      transition: var(--transition);
+    }
+
+    .collection-tag {
+      display: inline-block;
+      width: fit-content;
+      font-family: var(--font-body);
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold-500);
+      padding-bottom: 0.6rem;
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid var(--gold-600);
+    }
+
+    .collection-title {
+      font-family: var(--font-display);
+      font-size: 1.7rem;
+      font-weight: 600;
+      color: #FFFFFF;
+      margin-bottom: 0.5rem;
+      line-height: 1.15;
+    }
+
+    .collection-desc {
+      font-size: 0.85rem;
+      color: var(--ink-300);
+      line-height: 1.65;
+      letter-spacing: 0.01em;
+    }
+
+    /* ==========================================
+       10. FEATURED JEWELLERY SECTION
+       ========================================== */
+    .featured {
+      background: var(--cream-soft);
+    }
+
+    .filter-bar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .filter-btn {
+      background: transparent;
+      border: 1px solid var(--border-light);
+      padding: 0.7rem 1.5rem;
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--ink-600);
+      border-radius: var(--radius-xs);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: var(--ink-900);
+      border-color: var(--ink-900);
+      color: var(--gold-400);
+    }
+
+    .jewellery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 2rem;
+    }
+
+    .jewellery-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-xs);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition);
+      position: relative;
+    }
+
+    .jewellery-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold-500), var(--gold-700));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.45s cubic-bezier(0.25, 0.8, 0.25, 1);
+      z-index: 2;
+    }
+
+    .jewellery-card:hover::before { transform: scaleX(1); }
+
+    .jewellery-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--gold-500);
+      box-shadow: var(--shadow-md), 0 0 0 1px var(--gold-500);
+    }
+
+    .card-img-wrap {
+      position: relative;
+      height: 300px;
+      overflow: hidden;
+      background: var(--bg-champagne);
+    }
+
+    .card-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    .jewellery-card:hover .card-img-wrap img {
+      transform: scale(1.06);
+    }
+
+    .card-tag {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background: rgba(11, 11, 11, 0.85);
+      color: var(--gold-400);
+      font-family: var(--font-body);
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      padding: 0.35rem 0.85rem;
+      border: 1px solid var(--border-gold);
+      border-radius: var(--radius-xs);
+      backdrop-filter: blur(6px);
+    }
+
+    .card-body {
+      padding: 1.75rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .card-title {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--ink-900);
+      margin-bottom: 0.6rem;
+      line-height: 1.2;
+    }
+
+    .card-desc {
+      font-size: 0.88rem;
+      color: var(--ink-500);
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+      letter-spacing: 0.005em;
+    }
+
+    .card-actions { margin-top: auto; }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--gold-700);
+      transition: var(--transition);
+    }
+
+    .card-link i {
+      transition: var(--transition);
+      font-size: 0.75rem;
+    }
+
+    .card-link:hover {
+      color: var(--ink-900);
+      gap: 0.9rem;
+    }
+
+    .card-link:hover i { transform: translateX(3px); }
+
+    /* ==========================================
+       11. SERVICES / EXPERIENCE SECTION
+       ========================================== */
+    .experience {
+      background: var(--bg-noir);
+      color: var(--ink-100);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .experience::before {
+      content: '';
+      position: absolute;
+      bottom: -200px;
+      left: -200px;
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .experience .section-head h2 { color: #FFFFFF; }
+    .experience .section-head p { color: var(--ink-300); }
+    .experience .eyebrow { color: var(--gold-400); }
+
+    .experience-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.75rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .experience-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-dark);
+      border-radius: var(--radius-sm);
+      padding: 2.5rem 2rem;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+    }
+
+    .experience-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3px;
+      height: 100%;
+      background: linear-gradient(180deg, var(--gold-500), var(--gold-900));
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    .experience-card:hover::before { transform: scaleY(1); }
+
+    .experience-card:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: var(--border-gold);
+      transform: translateY(-4px);
+    }
+
+    .experience-num {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      font-weight: 500;
+      font-style: italic;
+      color: var(--gold-500);
+      line-height: 1;
+      margin-bottom: 1.25rem;
+      opacity: 0.85;
+    }
+
+    .experience-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #FFFFFF;
+      margin-bottom: 0.85rem;
+      line-height: 1.2;
+    }
+
+    .experience-card p {
+      font-size: 0.92rem;
+      color: var(--ink-300);
+      line-height: 1.75;
+      letter-spacing: 0.005em;
+    }
+
+    /* ==========================================
+       12. TESTIMONIALS
+       ========================================== */
+    .testimonials {
+      background: var(--cream);
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .testimonial-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-xs);
+      padding: 2.5rem 2rem;
+      transition: var(--transition);
+      position: relative;
+    }
+
+    .testimonial-card::before {
+      content: '"';
+      position: absolute;
+      top: 1rem;
+      right: 1.75rem;
+      font-family: var(--font-display);
+      font-size: 5rem;
+      line-height: 1;
+      color: var(--gold-200);
+      font-style: italic;
+      opacity: 0.7;
+    }
+
+    .testimonial-card:hover {
+      border-color: var(--gold-500);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-4px);
+    }
+
+    .testimonial-stars {
+      display: flex;
+      gap: 0.25rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .testimonial-stars i {
+      color: var(--gold-500);
+      font-size: 0.85rem;
+    }
+
+    .testimonial-text {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-style: italic;
+      line-height: 1.75;
+      color: var(--ink-700);
+      margin-bottom: 1.75rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-light);
+    }
+
+    .testimonial-avatar {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-500), var(--gold-900));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--ink-900);
+      flex-shrink: 0;
+    }
+
+    .testimonial-author-info strong {
+      display: block;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--ink-900);
+      letter-spacing: 0.5px;
+      margin-bottom: 0.15rem;
+    }
+
+    .testimonial-author-info span {
+      font-size: 0.75rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--ink-400);
+    }
+
+    @media (max-width: 900px) {
+      .testimonials-grid { grid-template-columns: 1fr; max-width: 540px; margin: 0 auto; }
+    }
+
+    /* ==========================================
+       13. CONTACT SECTION (NO IMAGES)
+       ========================================== */
+    .contact {
+      background: var(--bg-noir);
+      color: var(--ink-100);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contact::before {
+      content: '';
+      position: absolute;
+      top: -300px;
+      right: -200px;
+      width: 700px;
+      height: 700px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .contact::after {
+      content: '';
+      position: absolute;
+      bottom: -300px;
+      left: -200px;
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(212, 175, 55, 0.06) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .contact .section-head h2 { color: #FFFFFF; }
+    .contact .section-head p { color: var(--ink-300); }
+    .contact .eyebrow { color: var(--gold-400); }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 3.5rem;
+      position: relative;
+      z-index: 2;
+      align-items: start;
+    }
+
+    .contact-info {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-gold);
+      border-radius: var(--radius-sm);
+      padding: 2.75rem;
+      backdrop-filter: blur(12px);
+    }
+
+    .contact-info h3 {
+      font-family: var(--font-display);
+      font-size: 1.65rem;
+      font-weight: 600;
+      color: var(--gold-300);
+      margin-bottom: 2.25rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border-dark);
+      position: relative;
+    }
+
+    .contact-info h3::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--gold-500), transparent);
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.35rem;
+      margin-bottom: 2rem;
+      transition: var(--transition);
+    }
+
+    .contact-item:last-child { margin-bottom: 0; }
+
+    .contact-icon {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: rgba(212, 175, 55, 0.08);
+      border: 1px solid var(--border-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold-400);
+      font-size: 1.1rem;
+      flex-shrink: 0;
+      transition: var(--transition);
+    }
+
+    .contact-item:hover .contact-icon {
+      background: var(--gold-500);
+      color: var(--ink-900);
+      transform: translateY(-2px) scale(1.05);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .contact-details label {
+      display: block;
+      font-family: var(--font-body);
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--gold-500);
+      margin-bottom: 0.4rem;
+    }
+
+    .contact-details p,
+    .contact-details a {
+      font-family: var(--font-body);
+      font-size: 1.05rem;
+      font-weight: 400;
+      color: var(--ink-100);
+      line-height: 1.55;
+      transition: var(--transition);
+      letter-spacing: 0.01em;
+    }
+
+    .contact-details a:hover { color: var(--gold-400); }
+
+    .contact-cta {
+      background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.03));
+      border: 1px solid var(--border-gold);
+      border-radius: var(--radius-sm);
+      padding: 2.75rem;
+      text-align: center;
+      backdrop-filter: blur(12px);
+    }
+
+    .contact-cta-icon {
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-500), var(--gold-900));
+      color: var(--ink-900);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.75rem;
+      margin: 0 auto 1.75rem;
+      box-shadow: var(--shadow-gold);
+      border: 2px solid rgba(11, 11, 11, 0.1);
+    }
+
+    .contact-cta h3 {
+      font-family: var(--font-display);
+      font-size: 1.65rem;
+      font-weight: 600;
+      color: #FFFFFF;
+      margin-bottom: 0.85rem;
+      line-height: 1.2;
+    }
+
+    .contact-cta > p {
+      font-size: 0.95rem;
+      color: var(--ink-300);
+      line-height: 1.7;
+      margin-bottom: 2.25rem;
+      letter-spacing: 0.01em;
+    }
+
+    .contact-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    @media (max-width: 900px) {
+      .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .contact-info, .contact-cta { padding: 2rem; }
+    }
+
+    /* ==========================================
+       14. FOOTER
+       ========================================== */
+    .site-footer {
+      background: #060606;
+      color: var(--ink-300);
+      padding: 5rem 0 0;
+      border-top: 1px solid var(--border-dark);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.7fr 1fr 1fr 1.2fr;
+      gap: 3rem;
+      padding-bottom: 3.5rem;
+      border-bottom: 1px solid var(--border-dark);
+    }
+
+    .footer-brand .brand-name {
+      color: var(--gold-300);
+      font-size: 1.5rem;
+    }
+
+    .footer-brand .brand-tag { color: var(--ink-400); }
+
+    .footer-brand p {
+      margin-top: 1.75rem;
+      font-size: 0.88rem;
+      color: var(--ink-400);
+      line-height: 1.75;
+      letter-spacing: 0.01em;
+      max-width: 320px;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 0.7rem;
+      margin-top: 1.75rem;
+    }
+
+    .footer-social a {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 1px solid var(--border-gold);
+      background: rgba(212, 175, 55, 0.04);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold-400);
+      font-size: 0.9rem;
+      transition: var(--transition);
+    }
+
+    .footer-social a:hover {
+      background: var(--gold-500);
+      color: var(--ink-900);
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .footer-title {
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold-400);
+      margin-bottom: 1.65rem;
+      position: relative;
+      padding-bottom: 0.85rem;
+    }
+
+    .footer-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 30px;
+      height: 1px;
+      background: var(--gold-600);
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .footer-links a,
+    .footer-links li {
+      font-size: 0.88rem;
+      color: var(--ink-400);
+      letter-spacing: 0.01em;
+      transition: var(--transition);
+    }
+
+    .footer-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .footer-links a i {
+      font-size: 0.6rem;
+      color: var(--gold-600);
+      transition: var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: var(--gold-400);
+      padding-left: 5px;
+    }
+
+    .footer-contact-item {
+      display: flex;
+      gap: 0.85rem;
+      align-items: flex-start;
+      margin-bottom: 1.25rem;
+      font-size: 0.88rem;
+      color: var(--ink-400);
+      line-height: 1.7;
+    }
+
+    .footer-contact-item i {
+      color: var(--gold-500);
+      font-size: 0.9rem;
+      margin-top: 0.3rem;
+      flex-shrink: 0;
+    }
+
+    .footer-contact-item a {
+      color: var(--ink-400);
+      transition: var(--transition);
+    }
+
+    .footer-contact-item a:hover { color: var(--gold-400); }
+
+    .footer-bottom {
+      padding: 2rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.8rem;
+      color: var(--ink-500);
+      letter-spacing: 0.5px;
+    }
+
+    .footer-bottom-links {
+      display: flex;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-bottom-links a {
+      color: var(--ink-500);
+      transition: var(--transition);
+    }
+
+    .footer-bottom-links a:hover { color: var(--gold-400); }
+
+    @media (max-width: 1024px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem 2.5rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .footer-bottom-links { justify-content: center; }
+    }
+
+    /* ==========================================
+       15. FLOATING ELEMENTS
+       ========================================== */
+    .wa-float {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #25D366;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.75rem;
+      box-shadow: 0 14px 38px rgba(37, 211, 102, 0.4);
+      z-index: 998;
+      transition: var(--transition);
+      animation: pulse-wa 3.5s ease-in-out infinite;
+    }
+
+    .wa-float:hover {
+      background: #1EB855;
+      transform: scale(1.1) translateY(-4px);
+      animation: none;
+    }
+
+    @keyframes pulse-wa {
+      0%, 100% { box-shadow: 0 14px 38px rgba(37, 211, 102, 0.4); }
+      50% { box-shadow: 0 14px 52px rgba(37, 211, 102, 0.65); }
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 30px;
+      left: 30px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-500), var(--gold-900));
+      color: var(--ink-900);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+      transition: var(--transition);
+      z-index: 997;
+      font-size: 1rem;
+      border: 2px solid rgba(11, 11, 11, 0.15);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .back-to-top.show {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .back-to-top:hover {
+      background: linear-gradient(135deg, var(--gold-600), var(--gold-900));
+      transform: translateY(-4px);
+      box-shadow: 0 16px 42px rgba(212, 175, 55, 0.5);
+    }
+
+    @media (max-width: 600px) {
+      .wa-float { width: 54px; height: 54px; font-size: 1.5rem; bottom: 22px; right: 22px; }
+      .back-to-top { width: 44px; height: 44px; bottom: 22px; left: 22px; }
+    }
+
+    /* ==========================================
+       16. SCROLL REVEAL
+       ========================================== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.85s ease, transform 0.85s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ==========================================
+       17. ACCESSIBILITY
+       ========================================== */
+    :focus-visible {
+      outline: 2px solid var(--gold-500);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================
+       TOP INFO BAR
+       ========================================== -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <a href="https://www.google.com/maps/search/?api=1&query=Star+Centre+Tariq+Road+Block+2+PECHS+Karachi" target="_blank" rel="noopener" class="top-bar-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Star Centre, Shop 5, Tariq Rd, Block 2 P.E.C.H.S., Karachi</span>
+      </a>
+      <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+        <a href="tel:02134522531" class="top-bar-item">
+          <i class="fas fa-phone-alt"></i>
+          <span>021 34522531</span>
+        </a>
+        <a href="https://wa.me/922134522531" target="_blank" rel="noopener" class="top-bar-item">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp Us</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">
+        <span class="brand-name">International Jewellers</span>
+      </a>
+
+      <nav class="primary-nav" id="primaryNav">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#featured">Jewellery</a></li>
+          <li><a href="#experience">Services</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="tel:02134522531" class="nav-phone">
+          <i class="fas fa-phone-alt"></i>
+          <span>021 34522531</span>
+        </a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=1920" alt="Fine jewellery display">
+    </div>
+
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <i class="fas fa-crown"></i>
+            Est. Fine Jewellery House · Karachi
+          </div>
+
+          <h1 class="hero-title">
+            Timeless Elegance,<br>
+            <em>Crafted for You</em>
+          </h1>
+
+          <p class="hero-sub">
+            Discover an exquisite collection of gold, diamond, and bridal jewellery at International Jewellers. Serving Karachi's discerning families from Star Centre, Tariq Road, P.E.C.H.S. with craftsmanship and tradition.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://wa.me/922134522531?text=Assalam-o-Alaikum%20International%20Jewellers,%20I%20would%20like%20to%20inquire%20about%20your%20jewellery%20collection." target="_blank" rel="noopener" class="btn btn-gold btn-lg">
+              <i class="fab fa-whatsapp"></i>
+              Inquire on WhatsApp
+            </a>
+            <a href="#collections" class="btn btn-outline-gold btn-lg">
+              <i class="fas fa-gem"></i>
+              View Collections
+            </a>
+          </div>
+
+          <div class="hero-features">
+            <div class="hero-feature">
+              <i class="fas fa-certificate"></i>
+              <div class="hero-feature-text">
+                <strong>Certified Quality</strong>
+                <span>Authentic craftsmanship</span>
+              </div>
+            </div>
+            <div class="hero-feature">
+              <i class="fas fa-crown"></i>
+              <div class="hero-feature-text">
+                <strong>Bridal Specialist</strong>
+                <span>Wedding collections</span>
+              </div>
+            </div>
+            <div class="hero-feature">
+              <i class="fas fa-hand-holding-heart"></i>
+              <div class="hero-feature-text">
+                <strong>Personal Service</strong>
+                <span>Family consultation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-frame">
+            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80&w=800" alt="Fine gold jewellery">
+          </div>
+
+          <div class="hero-float card-1">
+            <div class="float-icon"><i class="fas fa-gem"></i></div>
+            <div class="float-text">
+              <strong>Bridal Sets</strong>
+              <span>Exclusive designs</span>
+            </div>
+          </div>
+
+          <div class="hero-float card-2">
+            <div class="float-icon"><i class="fas fa-award"></i></div>
+            <div class="float-text">
+              <strong>Since 1995</strong>
+              <span>Trusted legacy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       MARQUEE STRIP
+       ========================================== -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Gold Jewellery</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Diamond Collection</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Bridal Sets</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Rings & Bangles</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Necklaces</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Earrings</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Custom Orders</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Gold Jewellery</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Diamond Collection</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Bridal Sets</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Rings & Bangles</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Necklaces</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Earrings</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item"><i class="fas fa-diamond"></i> Custom Orders</span>
+      <span class="marquee-dot"></span>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       ABOUT SECTION
+       ========================================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-badge">
+            <span class="num">30+</span>
+            <span class="lbl">Years of Trust</span>
+          </div>
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&q=80&w=800" alt="International Jewellers showroom display">
+          </div>
+          <div class="about-img-accent">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&q=80&w=600" alt="Fine gold ring detail">
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <span class="eyebrow">Our Heritage</span>
+          <h2>A Legacy of <em>Fine Craftsmanship</em></h2>
+
+          <p>
+            International Jewellers has been a trusted name in Karachi's jewellery landscape for over three decades. From our showroom at Star Centre on Tariq Road, P.E.C.H.S., we have served generations of families seeking jewellery that combines timeless elegance with contemporary design.
+          </p>
+
+          <p>
+            Our collection spans traditional gold ornaments, certified diamond jewellery, and elaborate bridal sets — each piece carefully selected and crafted to celebrate life's most precious moments. Every visit to our store is an experience of personal attention, expert guidance, and unmatched quality.
+          </p>
+
+          <p>
+            Whether you are looking for an everyday piece, a festive ornament, or a complete bridal ensemble, our team is dedicated to helping you find jewellery that tells your unique story.
+          </p>
+
+          <div class="about-signature">
+            <div class="about-sig-mark">IJ</div>
+            <div class="about-sig-info">
+              <strong>International Jewellers</strong>
+              <span>Est. P.E.C.H.S. Karachi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       COLLECTIONS SECTION
+       ========================================== -->
+  <section class="section collections" id="collections">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Curated Themes</span>
+        <h2>Signature <em>Collections</em></h2>
+        <p>Explore our carefully curated collections designed for every chapter of your life.</p>
+        <div class="divider"><i class="fas fa-gem"></i></div>
+      </div>
+
+      <div class="collections-grid">
+        <div class="collection-card reveal">
+          <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80&w=700" alt="Everyday jewellery collection" loading="lazy">
+          <div class="collection-overlay">
+            <span class="collection-tag">Collection 01</span>
+            <h3 class="collection-title">Everyday Elegance</h3>
+            <p class="collection-desc">Lightweight, refined gold jewellery designed for subtle daily wear and effortless style.</p>
+          </div>
+        </div>
+
+        <div class="collection-card reveal">
+          <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=700" alt="Diamond collection" loading="lazy">
+          <div class="collection-overlay">
+            <span class="collection-tag">Collection 02</span>
+            <h3 class="collection-title">Diamond Brilliance</h3>
+            <p class="collection-desc">Certified diamond jewellery featuring timeless solitaires and modern statement pieces.</p>
+          </div>
+        </div>
+
+        <div class="collection-card reveal">
+          <img src="https://images.unsplash.com/photo-1611598935678-c88dca238fce?auto=format&fit=crop&q=80&w=700" alt="Festive gold jewellery collection" loading="lazy">
+          <div class="collection-overlay">
+            <span class="collection-tag">Collection 03</span>
+            <h3 class="collection-title">Festive Gold</h3>
+            <p class="collection-desc">Traditional gold ornaments crafted for weddings, Eid, and family celebrations.</p>
+          </div>
+        </div>
+
+        <div class="collection-card reveal">
+          <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=700" alt="Bridal jewellery collection" loading="lazy">
+          <div class="collection-overlay">
+            <span class="collection-tag">Collection 04</span>
+            <h3 class="collection-title">Bridal Heirlooms</h3>
+            <p class="collection-desc">Complete bridal sets — from Barat to Walima — designed to make your day unforgettable.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FEATURED JEWELLERY SECTION
+       ========================================== -->
+  <section class="section featured" id="featured">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our Craft</span>
+        <h2>Featured <em>Jewellery</em></h2>
+        <p>Browse through our distinct categories of handcrafted and finely finished jewellery pieces.</p>
+        <div class="divider"><i class="fas fa-gem"></i></div>
+      </div>
+
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All Styles</button>
+        <button class="filter-btn" data-filter="rings">Rings</button>
+        <button class="filter-btn" data-filter="earrings">Earrings</button>
+        <button class="filter-btn" data-filter="necklaces">Necklaces</button>
+        <button class="filter-btn" data-filter="bangles">Bangles</button>
+        <button class="filter-btn" data-filter="sets">Bridal Sets</button>
+      </div>
+
+      <div class="jewellery-grid" id="jewelleryGrid">
+        <!-- Rings -->
+        <div class="jewellery-card reveal" data-category="rings">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&q=80&w=600" alt="Solitaire ring design" loading="lazy">
+            <span class="card-tag">Rings</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Solitaire & Statement Rings</h3>
+            <p class="card-desc">Elegant ring designs from minimal everyday bands to elaborate ceremonial statement pieces.</p>
+            <div class="card-actions">
+              <a href="https://wa.me/922134522531?text=Assalam-o-Alaikum%20International%20Jewellers,%20I%20would%20like%20to%20inquire%20about%20your%20Rings%20collection." target="_blank" rel="noopener" class="card-link">
+                Inquire Now <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Earrings -->
+        <div class="jewellery-card reveal" data-category="earrings">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&q=80&w=600" alt="Earrings design" loading="lazy">
+            <span class="card-tag">Earrings</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Traditional & Modern Earrings</h3>
+            <p class="card-desc">From minimal studs to classic Jhumkas, Chandbalis, and drop earrings for every occasion.</p>
+            <div class="card-actions">
+              <a href="https://wa.me/922134522531?text=Assalam-o-Alaikum%20International%20Jewellers,%20I%20would%20like%20to%20inquire%20about%20your%20Earrings%20collection." target="_blank" rel="noopener" class="card-link">
+                Inquire Now <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Necklaces -->
+        <div class="jewellery-card reveal" data-category="necklaces">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80&w=600" alt="Necklace design" loading="lazy">
+            <span class="card-tag">Necklaces</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Intricate Necklaces & Chokers</h3>
+            <p class="card-desc">Gracefully crafted neckpieces matching contemporary outfits and traditional heritage attire.</p>
+            <div class="card-actions">
+              <a href="https://wa.me/922134522531?text=Assalam-o-Alaikum%20International%20Jewellers,%20I%20would%20like%20to%20inquire%20about%20your%20Necklaces%20collection." target="_blank" rel="noopener" class="card-link">
+                Inquire Now <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bangles -->
+        <div class="jewellery-card reveal" data-category="bangles">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1611598935678-c88dca238fce?auto=format&fit=crop&q=80&w=600" alt="Gold bangles set" loading="lazy">
+            <span class="card-tag">Bangles</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Bangles & Karras</h3>
+            <p class="card-desc">Finely finished bangles designed to add classic Pakistani flair to wedding and festive wear.</p>
+            <div class="card-actions">
+              <a href="https://wa.me/922134522531?text=Assalam-o-Alaikum%20International%20Jewellers,%20I%20would%20like%20to%20inquire%20about%20your%20Bangles%20collection." target="_blank" rel="noopener" class="card-link">
+                Inquire Now <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bracelets -->
+        <div class="jewellery-card reveal" data-category="bangles">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&q=80&w=600" alt="Bracelet design" loading="lazy">
+            <span class="card-tag">Bracelets</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Refined Bracelets</h3>
+            <p class="card-desc">Sleek chain and cuff bracelets designed for comfortable daily wear and elegant layering.</p>
+            <div class="card-actions">
+              <a href="https://wa.me/922134522531?text=Assalam-o-Alaikum%20International%20Jewellers,%20I%20would%20like%20to%20inquire%20about%20your%20Bracelets%20collection." target="_blank" rel="noopener" class="card-link">
+                Inquire Now <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bridal Sets -->
+        <div class="jewellery-card reveal" data-category="sets">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=600" alt="Bridal jewellery set" loading="lazy">
+            <span class="card-tag">Sets</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Coordinated Bridal Sets</h3>
+            <p class="card-desc">Matching necklace, earring, and bangle sets tailored for bridal parties and grand receptions.</p>
+            <div class="card-actions">
+              <a href="https://wa.me/922134522531?text=Assalam-o-Alaikum%20International%20Jewellers,%20I%20would%20like%20to%20inquire%20about%20your%20Bridal%20Sets%20collection." target="_blank" rel="noopener" class="card-link">
+                Inquire Now <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       EXPERIENCE / SERVICES SECTION
+       ========================================== -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our Promise</span>
+        <h2>An Experience of <em>Excellence</em></h2>
+        <p>More than a store — a legacy of trust, craftsmanship, and personal service.</p>
+        <div class="divider"><i class="fas fa-gem"></i></div>
+      </div>
+
+      <div class="experience-grid">
+        <div class="experience-card reveal">
+          <div class="experience-num">01</div>
+          <h3>Certified Quality</h3>
+          <p>Every piece of jewellery at International Jewellers is carefully verified for authenticity and craftsmanship. We deal exclusively in certified gold and diamond jewellery, ensuring complete peace of mind with every purchase.</p>
+        </div>
+
+        <div class="experience-card reveal">
+          <div class="experience-num">02</div>
+          <h3>Bridal Consultation</h3>
+          <p>Our bridal specialists work closely with you to curate the perfect jewellery ensemble for your wedding. From design selection to final fitting, we ensure your bridal jewellery reflects your personal style and family traditions.</p>
+        </div>
+
+        <div class="experience-card reveal">
+          <div class="experience-num">03</div>
+          <h3>Custom Design Service</h3>
+          <p>Have a specific design in mind? Our skilled artisans can craft bespoke jewellery pieces tailored to your vision. Share your inspiration, and we will transform it into a timeless creation.</p>
+        </div>
+
+        <div class="experience-card reveal">
+          <div class="experience-num">04</div>
+          <h3>Investment Guidance</h3>
+          <p>We help you make informed decisions about your jewellery investment. Our team provides honest guidance on gold purity, diamond grading, and market value to ensure you get the best for your budget.</p>
+        </div>
+
+        <div class="experience-card reveal">
+          <div class="experience-num">05</div>
+          <h3>Jewellery Care & Maintenance</h3>
+          <p>We offer complimentary cleaning and inspection services for your International Jewellers purchases. Regular maintenance ensures your precious pieces retain their brilliance for generations.</p>
+        </div>
+
+        <div class="experience-card reveal">
+          <div class="experience-num">06</div>
+          <h3>Family Legacy</h3>
+          <p>For three decades, families across Karachi have trusted us for their most important occasions. We consider it our privilege to be part of your celebrations, generation after generation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       TESTIMONIALS
+       ========================================== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Client Stories</span>
+        <h2>What Our <em>Clients Say</em></h2>
+        <p>Trusted by generations of families across Karachi for their most precious moments.</p>
+        <div class="divider"><i class="fas fa-gem"></i></div>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "I have been buying jewellery from International Jewellers for over 15 years. Their collection is unmatched, and the service is always warm and personal. My daughter's entire bridal set was purchased here."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">A</div>
+            <div class="testimonial-author-info">
+              <strong>Ayesha Khan</strong>
+              <span>P.E.C.H.S. Resident</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "The team at International Jewellers helped me find the perfect diamond ring for my engagement. Their honest guidance on quality and pricing made the entire experience stress-free and memorable."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">H</div>
+            <div class="testimonial-author-info">
+              <strong>Hassan Ali</strong>
+              <span>Karachi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "What sets them apart is their attention to detail and after-sales care. They remember their customers and treat every purchase with the importance it deserves. Truly a family jeweller."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">S</div>
+            <div class="testimonial-author-info">
+              <strong>Sadia Rehman</strong>
+              <span>Tariq Road</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       CONTACT SECTION (NO IMAGES)
+       ========================================== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Get In Touch</span>
+        <h2>Visit Our <em>Showroom</em></h2>
+        <p>Step into our showroom at Star Centre or connect with us directly for personalised assistance.</p>
+        <div class="divider"><i class="fas fa-gem"></i></div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Business Contact</h3>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-details">
+              <label>Showroom Address</label>
+              <p>Star Centre, Shop 5, Tariq Rd,<br>Block 2 P.E.C.H.S., Karachi, Pakistan</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+            <div class="contact-details">
+              <label>Phone Number</label>
+              <p><a href="tel:02134522531">021 34522531</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+            <div class="contact-details">
+              <label>WhatsApp Inquiry</label>
+              <p><a href="https://wa.me/922134522531" target="_blank" rel="noopener">+92 21 34522531</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div class="contact-details">
+              <label>Store Hours</label>
+              <p>Monday – Saturday: 11am – 9pm<br>Sunday: Closed</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-cta reveal">
+          <div class="contact-cta-icon">
+            <i class="fas fa-comments"></i>
+          </div>
+          <h3>Quick Inquiry</h3>
+          <p>Reach out to us via WhatsApp or phone for immediate assistance regarding our collections, custom orders, or a private showroom visit.</p>
+
+          <div class="contact-actions">
+            <a href="https://wa.me/922134522531?text=Assalam-o-Alaikum%20International%20Jewellers,%20I%20would%20like%20to%20inquire%20about%20your%20jewellery%20collection." target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <i class="fab fa-whatsapp"></i>
+              Chat on WhatsApp
+            </a>
+
+            <a href="tel:02134522531" class="btn btn-gold">
+              <i class="fas fa-phone-alt"></i>
+              Call: 021 34522531
+            </a>
+
+            <a href="https://www.google.com/maps/search/?api=1&query=Star+Centre+Tariq+Road+Block+2+PECHS+Karachi" target="_blank" rel="noopener" class="btn btn-outline-gold">
+              <i class="fas fa-directions"></i>
+              Get Directions
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="brand">
+            <span class="brand-name">International Jewellers</span>
+          </a>
+          <p>
+            A trusted name in fine jewellery since 1995, serving Karachi's families with certified gold, diamond, and bridal collections from Star Centre, Tariq Road.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <div class="footer-links">
+            <a href="#home"><i class="fas fa-chevron-right"></i> Home</a>
+            <a href="#about"><i class="fas fa-chevron-right"></i> About</a>
+            <a href="#collections"><i class="fas fa-chevron-right"></i> Collections</a>
+            <a href="#featured"><i class="fas fa-chevron-right"></i> Jewellery</a>
+            <a href="#experience"><i class="fas fa-chevron-right"></i> Services</a>
+            <a href="#testimonials"><i class="fas fa-chevron-right"></i> Reviews</a>
+            <a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Categories</h4>
+          <div class="footer-links">
+            <a href="#featured"><i class="fas fa-chevron-right"></i> Rings</a>
+            <a href="#featured"><i class="fas fa-chevron-right"></i> Earrings</a>
+            <a href="#featured"><i class="fas fa-chevron-right"></i> Necklaces</a>
+            <a href="#featured"><i class="fas fa-chevron-right"></i> Bangles</a>
+            <a href="#featured"><i class="fas fa-chevron-right"></i> Bracelets</a>
+            <a href="#featured"><i class="fas fa-chevron-right"></i> Bridal Sets</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact Us</h4>
+          <div class="footer-contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Star Centre, Shop 5, Tariq Rd, Block 2 P.E.C.H.S., Karachi, Pakistan</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <span><a href="tel:02134522531">021 34522531</a></span>
+          </div>
+          <div class="footer-contact-item">
+            <span><a href="https://wa.me/922134522531" target="_blank" rel="noopener">WhatsApp: +92 21 34522531</a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 International Jewellers. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/922134522531?text=Assalam-o-Alaikum%20International%20Jewellers,%20I%20would%20like%20to%20inquire%20about%20your%20jewellery%20collection." target="_blank" rel="noopener" class="wa-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- ==========================================
+       JAVASCRIPT
+       ========================================== -->
+  <script>
+    (function() {
+      'use strict';
+
+      // DOM Elements
+      const siteHeader = document.getElementById('siteHeader');
+      const menuToggle = document.getElementById('menuToggle');
+      const primaryNav = document.getElementById('primaryNav');
+      const navLinks = document.querySelectorAll('.primary-nav a');
+      const backToTop = document.getElementById('backToTop');
+      const sections = document.querySelectorAll('section[id]');
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const jewelleryCards = document.querySelectorAll('.jewellery-card');
+
+      // --- Mobile Menu Toggle ---
+      if (menuToggle) {
+        menuToggle.addEventListener('click', function() {
+          this.classList.toggle('open');
+          primaryNav.classList.toggle('open');
+          document.body.style.overflow = primaryNav.classList.contains('open') ? 'hidden' : '';
+        });
+      }
+
+      // Close menu on link click
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          menuToggle.classList.remove('open');
+          primaryNav.classList.remove('open');
+          document.body.style.overflow = '';
+        });
+      });
+
+      // Close menu on outside click
+      document.addEventListener('click', (e) => {
+        if (primaryNav.classList.contains('open') &&
+            !primaryNav.contains(e.target) &&
+            !menuToggle.contains(e.target)) {
+          menuToggle.classList.remove('open');
+          primaryNav.classList.remove('open');
+          document.body.style.overflow = '';
+        }
+      });
+
+      // --- Scroll Effects ---
+      let ticking = false;
+
+      function onScroll() {
+        const scrollY = window.pageYOffset;
+
+        if (scrollY > 50) {
+          siteHeader.classList.add('scrolled');
+        } else {
+          siteHeader.classList.remove('scrolled');
+        }
+
+        if (scrollY > 500) {
+          backToTop.classList.add('show');
+        } else {
+          backToTop.classList.remove('show');
+        }
+
+        // Active nav link highlight
+        let current = '';
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop - 150;
+          const sectionHeight = section.offsetHeight;
+          if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+            current = section.getAttribute('id');
+          }
+        });
+
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === '#' + current) {
+            link.classList.add('active');
+          }
+        });
+
+        ticking = false;
+      }
+
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          window.requestAnimationFrame(onScroll);
+          ticking = true;
+        }
+      }, { passive: true });
+
+      // --- Back to Top ---
+      backToTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      // --- Filter Functionality ---
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+
+          const filterValue = this.getAttribute('data-filter');
+
+          jewelleryCards.forEach(card => {
+            if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+              card.style.display = 'flex';
+              // Trigger reveal animation
+              card.classList.add('visible');
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // --- Scroll Reveal Animation ---
+      const revealElements = document.querySelectorAll('.reveal');
+
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -60px 0px'
+      });
+
+      revealElements.forEach(el => revealObserver.observe(el));
+
+      // --- Smooth Scroll for Anchor Links ---
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+
+          const target = document.querySelector(targetId);
+          if (target) {
+            e.preventDefault();
+            const headerOffset = siteHeader.offsetHeight + 40;
+            const elementPosition = target.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+
+      // --- Console Branding ---
+      console.log(
+        '%c International Jewellers ',
+        'background: #0B0B0B; color: #D4AF37; font-size: 20px; font-weight: bold; padding: 10px 20px; border-radius: 4px; font-family: Georgia, serif; border: 1px solid #D4AF37;'
+      );
+      console.log(
+        '%c Star Centre, Tariq Road, P.E.C.H.S., Karachi · 021 34522531 ',
+        'color: #B8892E; font-size: 12px; padding: 4px;'
+      );
+
+    })();
+  </script>
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "JewelryStore",
+    "name": "International Jewellers",
+    "description": "Fine jewellery store in P.E.C.H.S., Karachi offering gold, diamond, and bridal jewellery collections.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Star Centre, Shop 5, Tariq Rd, Block 2 P.E.C.H.S.",
+      "addressLocality": "Karachi",
+      "addressRegion": "Sindh",
+      "addressCountry": "PK"
+    },
+    "telephone": "+922134522531",
+    "priceRange": "$$$",
+    "areaServed": "Karachi",
+    "serviceType": [
+      "Gold Jewellery",
+      "Diamond Jewellery",
+      "Bridal Jewellery",
+      "Custom Jewellery Design"
+    ]
+  }
+  </script>
+</body>
+</html>
